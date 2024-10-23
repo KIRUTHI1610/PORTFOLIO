@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>My portfolio</title>
+  <meta name="title" content="Julia - I'm User Interface Designer & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="assets/profile.jpg">
+  <link rel="preload" as="image" href="assets/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo" style="display: inline-block; width: 64px; height: 24px;">
+        <span style="display: inline-block; width: 100%; height: 100%; text-align: center; line-height: 24px; font-size: 18px; font-weight: bolder;">
+          Kiruthika
+        </span>
+      </a>
+      
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo" style="display: inline-block; width: 64px; height: 24px;">
+            <span style="display: inline-block; width: 100%; height: 100%; text-align: center; line-height: 24px; font-size: 18px; font-weight: bolder;">
+              Kiruthika
+            </span>
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:kiruthika.anbalaagan@gmail.com" class="contact-link">Contact me</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/kiruthika-a-03baa4228/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://github.com/KIRUTHI1610" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        
+          <li>
+            <a href="mailto:kiruthika.anbalaagan@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="assets/profile.jpg" width="560" height="540" alt="Julia" class="w-100"
+              data-reveal="top">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm a FrontEnd Developer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm Kiruthika A, a passionate Frontend developer. 
+              I love creating intuitive and engaging digital experiences that combine creativity and functionality.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#contact" class="btn btn-primary">Contact me</a>
+
+              <a href="#project" class="btn btn-secondary">See My Works</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about" id="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                Enthusiastic engineering graduate with a strong foundation in core engineering principles and software expertise. 
+                Skilled in electrical circuits, electronics, signal processing, and communication systems. 
+                Proficient in C, C++, Python, and Java, with hands-on experience in web development. 
+                Proven problem-solving abilities through internships and co-op programs, showcasing adaptability and teamwork. 
+                Effective communicator with the ability to convey complex ideas to diverse audiences.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Web Design</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>C, C++</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Python</p>
+
+                  <span class="span">85 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Java</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div data-reveal="left">
+            <h2 class="h2 section-title">Accomplishments</h2>
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">SIH Winner-2023</h3>
+
+                <p class="card-text">
+                  "From Brainstorming to Brilliance” Team Zhagaram Conquers the Smart India Hackathon-2023(Hardware Edition)
+                   It was 5 days of intense brainstorming, late-night coding sessions, and endless cups of coffee, but in the end, our team emerged victorious at the Smart India Hackathon!!!
+
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/icon-1.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">GreenHope project</h3>
+
+                <p class="card-text">
+                  Exciting News from Team Zhagaram!
+                  Our team Zhagaram has secured a $7007 grant from IEEE SIGHT (Tech4good) for our GreenHope project - An IoT-enabled smart hydroponics system 
+                  for Little Drops Old Age Home in Somangalam Village.
+
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/icon-1.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">TANCAM Women Hackathon</h3>
+
+                <p class="card-text">
+                  Excited to announce that our team ZHAGARAM secured Second place in Tamil Nadu Centre of Excellence for 
+                  Advanced Manufacturing - TANCAM Women Hackathon held in Rajalakshmi Engineering College.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/icon-1.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">IEEE Excellence Award</h3>
+
+                <p class="card-text">
+                  I'm thrilled and honored to receive the IEEE Excellence Award as the SEC IEEE ComSoc SBC Chairperson! This recognition is a 
+                  testament to the hard work and dedication of our incredible team. 
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="project">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="#project" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title">AUTONOMOUS SYSTEM FOR SMART HAULING OPERATION IN MINES</h3>
+
+                  <p class="card-text">
+                    Autohaul aims to enable autonomous hauling operations in mines. Vehicles will receive commands from a pole deployed in the route, 
+                    guiding their movements within the mine environment for efficient and safe operations.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="assets/1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Web Design</p>
+
+                  <h3 class="h3 card-title">SMART SERICULTURE SYSTEM</h3>
+
+                  <p class="card-text">
+                    Developed a Smart Sericulture System utilising YOLOv8 for pest and disease detection, IoT for temperature control and 
+                    automated sprinklers, and a user-friendly app for system monitoring.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="assets/2.jpg" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                  <h3 class="h3 card-title">BUOYIL - A FLOATING DEVICE FOR OIL SPILL REMEDIATION AT OCEAN SURFACE</h3>
+
+                  <p class="card-text">
+                    A sustainable floating device employing Phorous technology for efficient oil spill cleanup, 
+                    integrating solar-powered absorption, ultrasonic monitoring, and LoRaWAN alerting.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="assets/3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+
+                  <h3 class="h3 card-title">A YOLO-BASED IOT CAMERA SYSTEM WITH CHATBOT INTEGRATION</h3>
+
+                  <p class="card-text">
+                    Developed an advanced surveillance system for public places using IoT cameras integrated with YOLOv8 for real-time object 
+                    detection and a chatbot for interactive monitoring and alerts.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="assets/4.jpg" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Web Design</p>
+
+                  <h3 class="h3 card-title">360 DEGREE FEEDBACK CLASSIFIER</h3>
+
+                  <p class="card-text">
+                    Designed to analyze and categorize feedback provided in a 360-degree review process in e-commerce websites.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="assets/5.jpg" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Web Design</p>
+
+                  <h3 class="h3 card-title">JOULESWAP</h3>
+
+                  <p class="card-text">
+                    Peer-to-peer energy sharing app that allows users to trade excess solar power with others, promoting sustainable energy use and reducing reliance on traditional power grids
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="assets/6.jpg" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="assets/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-reveal="right">
+
+              <!-- Hidden input for Web3Forms access key -->
+              <input type="hidden" name="access_key" value="20974884-7deb-4e3c-b447-e2b79ab6848d" />
+            
+              <!-- Input fields -->
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+                <input type="email" name="email" placeholder="Email *" required class="input-field">
+              </div>
+            
+              <!-- Subject field -->
+              <input type="text" name="subject" placeholder="Subject *" required class="input-field">
+            
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+            
+              <button type="submit" class="btn btn-secondary">Send message</button>
+              
+              <!-- Message display area -->
+              <div id="form-message" class="form-message" style="display: none;"></div>
+            
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2024 Kiruthika. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/kiruthika-a-03baa4228/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://github.com/KIRUTHI1610" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+      
+        <li>
+          <a href="mailto:kiruthika.anbalaagan@gmail.com" class="social-link">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
